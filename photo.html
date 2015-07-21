@@ -9,8 +9,43 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<title>Photo Gallery</title>
+
+<style type="text/css">
+	.carousel {
+		margin-top: 10%;
+	}
+
+	body {
+		background-color: #ccc;
+	}
+</style>
 </head>
 <body>
+
+<header>
+	<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>		
+				<a href="" class="navbar-brand">Navbar</a>
+			</div>
+			<div class="collapse navbar-collapse" id="example">
+				<ul class="nav navbar-nav">
+					<li><a href="">page1</a></li>
+					<li><a href="">page2</a></li>
+				</ul>
+				<form action="" class="navbar-form navbar-right form-group" role="search">
+						<input type="text" class="form-control" placeholder="search">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>			
+		</div>		
+	</div>
+</header>
 
 <div class="container">
 	<div class="carousel slide" data-ride="carousel" id="imagecarousel">
