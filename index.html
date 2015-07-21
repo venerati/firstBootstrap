@@ -11,7 +11,7 @@
 <title>Best Website ever</title>
 <style type="text/css">
 	.test {
-		background-color: #ccc;
+		background-color: #ACACAC;
 		padding: 20px;
 	}
 
@@ -24,12 +24,15 @@
     }
 
     body {
-        background-color: #ccc;
+        background-color: #ACACAC;
     }
 
     .jumbotron {
         background-image:url(images/img_NZ_Mountains01_williamsj.jpg);
         height: 500px;
+    }
+    .row1 {
+        margin-bottom: 30px;
     }
 </style>
 </head>
@@ -47,8 +50,10 @@
 			</div>
 			<div class="collapse navbar-collapse" id="example">
 				<ul class="nav navbar-nav">
-					<li><a href="">page1</a></li>
-					<li><a href="">page2</a></li>
+					<li><a href="">Photography</a></li>
+					<li><a href="">Planets</a></li>
+                    <li><a href="">Streaming</a></li>
+                    <li><a href="">Gardening</a></li>
 				</ul>
 				<form action="" class="navbar-form navbar-right form-group" role="search">
 						<input type="text" class="form-control" placeholder="search">
@@ -59,7 +64,7 @@
 	</div>
 	<div class="jumbotron">	
 		<div class="container text-center">			
-			<h1>Hello World!</h1>
+			<h1>James O. Marshall III</h1>
 		</div>		
 	</div>
 <!--My attempt at a button dropdown -->
@@ -78,7 +83,7 @@
 	<br>
 	</header>
     <div class="container">
-        <div class="row">
+        <div class="row row1">
             <div class="col-md-4">
                 <a href="http://heyyeyaaeyaaaeyaeyaa.com/" class="btn btn-danger btn-large btn-block">Party Time</a>
             </div>
@@ -107,14 +112,47 @@
             <div class="col-md-4">
                 <div class="dropdown">
             <button class="btn btn-default dropdown-toggle btn-large btn-block" type="button" data-toggle="dropdown">
-                test <span class="caret"></span>
+                Dropdown links <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li class="dropdown-header"><a href="">test</a></li>
-                <li><a href="">test</a></li>
-                <li><a href="">test</a></li>
+                <li><a href="">Photography</a></li>
+                <li><a href="">Planets</a></li>
+                <li><a href="">Streaming</a></li>
+                <li><a href="">Gardening</a></li>
             </ul>
         </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapaseone" data-toggle="collapse" data-parent="accordion">
+                            Collapsible example
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapaseone" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapaseone2" data-toggle="collapse" data-parent="accordion">
+                            Collapsible example
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapaseone2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -172,37 +210,5 @@
 			</div>
 		</div>
 	</div>
-    <div class="container">
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-info">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a href="#collapaseone" data-toggle="collapse" data-parent="accordion">
-                            Collapsible example
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapaseone" class="panel-collapse collapse in">
-                    <div class="panel-body">
-                        a;skldjf;aksdjf;askldjfa;lskfj asdfasdfasdf asdfasdfasd fasdfadsf asdfadfasdf asdfasdf asdfasdfasd fasdf asdf asdf asdfa
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-warning">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a href="#collapaseone2" data-toggle="collapse" data-parent="accordion">
-                            Collapsible example
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapaseone2" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        a;skldjf;aksdjf;askldjfa;lskfj asdfasdfasdf asdfasdfasd fasdfadsf asdfadfasdf asdfasdf asdfasdfasd fasdf asdf asdf asdfa
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
